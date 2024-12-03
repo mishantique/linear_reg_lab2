@@ -1,0 +1,20 @@
+Основное задание:
+Significant factors based on p-value: [('MedInc', 0.6906466061467704), ('HouseAge', 0.10370632403710708), ('AveRooms', 0.15848486725499633), ('AveBedrms', -0.05135098593689967), ('Population', -0.02603238666851839), ('AveOccup', -0.02202995862755844), ('Latitude', -0.14298334973669913), ('Longitude', -0.04634888300866163)]
+Highly correlated factor pairs: [('AveRooms', 'AveBedrms'), ('AveBedrms', 'AveRooms'), ('Latitude', 'Longitude'), ('Longitude', 'Latitude')]
+Current factors: ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude']
+Enter the name of the factor to remove (or 'done' to finish): done
+Train R^2: 0.6125511913966952, Train MSE: 0.5179331255246699
+Test R^2: 0.5757877060324508, Test MSE: 0.5558915986952444
+
+
+
+Бонусное задание:
+Enter the number of lags to create: 0
+Enter the start index for the response series: 100
+Enter the end index for the response series: 800
+Significant factors based on p-value: [('MedInc', 0.743011543622697), ('AveRooms', 0.5715148935845864), ('AveBedrms', -0.14640558574631876), ('AveOccup', -0.2005597843292827), ('Latitude', 0.3226904694136209), ('Longitude', -0.15870622087476102)]
+Highly correlated factor pairs: [('Latitude', 'Longitude'), ('Longitude', 'Latitude')]
+Current factors: ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude']
+Enter the name of the factor to remove (or 'done' to finish): done
+Train R^2: 0.6427939480527547, Train MSE: 0.2899918920095588
+Test R^2: 0.754694054244831, Test MSE: 0.20631366574466187
